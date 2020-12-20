@@ -40,7 +40,7 @@ The precedence of redirect rules is:
 Next, we can install the program and run the HTTP server.
 
 ```bash
-$ go get github.com/hitecherik/switchboard
+$ go get github.com/hitecherik/switchboard/cmd/switchboard
 $ switchboard -config path/to/config.toml
 ```
 
