@@ -23,7 +23,6 @@ func Walk(tree *toml.Tree) ([]Redirect, error) {
 				Destination: destination,
 			})
 		} else {
-			fmt.Printf("Reading host %v\n", key)
 			subtree := tree.GetPath([]string{key}).(*toml.Tree)
 
 			var err error
